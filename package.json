@@ -1,0 +1,16 @@
+{
+  "name": "currency_converter",
+  "version": "1.0.0",
+  "description": "A microservice for another classmates project that takes USD and converts to Euros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
