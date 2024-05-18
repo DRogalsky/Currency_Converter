@@ -20,9 +20,9 @@ let unformatDollars = function(moneyString) {
 
 // grab the conversion rates using exchangerate api
 let conversionRates
-let conversionAPI = 'https://api.exchangerate-api.com/v4/latest/USD'
+let conversionAPI = process.env.Converter_api
 axios.get(conversionAPI).then(function (response) {
-    conversionRates = response.data.rates
+    conversionRates = response.data.conversion_rates
 }).catch(function(error){
     console.log(error)
 })
