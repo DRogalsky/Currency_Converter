@@ -1,5 +1,7 @@
 # Currency_Converter
-A microservice for another classmates project that takes USD and converts to Euros, canadian dollars, and mexican pesos
+A microservice for another classmates project that takes USD and converts to Euros, canadian dollars, and mexican pesos.
+
+A deployed version can be found here: currency-converter-mmad.onrender.com
 
 # How to use
 
@@ -33,6 +35,9 @@ This part will remain the same no matter which currency you converted the USD to
 
 request.data.cashTotal
 
+## Sequence Diagram
+
+![Sequence diagram for currency converter](./pictures%20for%20readme/sequencediagram.png)
 
 ## Apis Used
 https://www.exchangerate-api.com used to grab and update conversion rates for different currencies
